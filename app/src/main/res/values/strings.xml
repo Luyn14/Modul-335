@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="money_manager">Money Manager!</string>
+    <string name="wallet">Wallet</string>
+    <string name="activitys">Activitys</string>
+    <string name="activity_detail">Activity Detail</string>
+</resources>

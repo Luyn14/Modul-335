@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/introFragment">
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.myproject.ui.IntroFragment"
+        android:label="fragment_intro_fragment"
+        tools:layout="@layout/fragment_intro_fragment" >
+        <action
+            android:id="@+id/action_introFragment_to_activity_Overview2"
+            app:destination="@id/activity_Overview2" />
+        <action
+            android:id="@+id/action_introFragment_to_wallet_View2"
+            app:destination="@id/wallet_View2" />
+    </fragment>
+    <fragment
+        android:id="@+id/wallet_View2"
+        android:name="com.example.myproject.Wallet_View"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/activity_Overview2"
+        android:name="com.example.myproject.Activity_Overview"
+        android:label="fragment_activity_fragment"
+        tools:layout="@layout/fragment_activity_fragment" />
+</navigation>
