@@ -16,6 +16,7 @@ class Activity_Detail : Fragment() {
         return inflater.inflate(R.layout.fragment_activity_detail, container, false)
     }
 
+    //TODO
 
 
 }
